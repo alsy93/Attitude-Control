@@ -63,7 +63,7 @@ err_sun = abs(vbs2err_check - vbs2_err);
 
 %% Q - METHOD
 
-alpha1 = 1;
+alpha1 = 1;     %NOTE: Maxlambda is infuelced by theese quantities
 alpha2 = 1;
 
 B = alpha1 * vbs1*v1n' + alpha2 * vbs2*v2n';
@@ -100,4 +100,6 @@ g3 = g(3);
 Abn_quest = 1/(1 + (g1^2+g2^2+g3^2)) * [1 + g1^2-g2^2-g3^2, 2*(g1*g2+g3), 2*(g1*g3-g2);...
             2*(g1*g2-g3), 1 - g1^2+g2^2-g3^2, 2*(g2*g3+g1);...
             2*(g1*g3+g2), 2*(g2*g3-g1), 1-g1^2-g2^2+g3^2];
+        
+%% Fmincon
 

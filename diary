@@ -1,0 +1,56 @@
+slprivate('showprefs')
+slprivate('showprefs')
+fid = fopen('Lab6T3_v2.slx','r')
+
+fid =
+
+     3
+
+fclose(fid)
+
+ans =
+
+     0
+
+uiopen('C:\Users\aloisia\Downloads\Euler.mdl',1)
+uiopen('C:\Users\aloisia\Downloads\Euler (1).mdl',1)
+uiopen('C:\Users\aloisia\Downloads\Euler (2).mdl',1)
+uiopen('C:\Users\aloisia\Downloads\Euler (2).mdl',1)
+help isvarname
+ <strong>isvarname</strong> True for valid variable name.
+    <strong>isvarname</strong>(S) is true if S is a valid MATLAB variable name. A valid
+    variable name begins with a letter and contains not more than
+    namelengthmax characters. Valid variable names can include letters,
+    digits, and underscores. MATLAB keywords are not valid variable names.
+ 
+    See also <a href="matlab:help matlab.lang.makeValidName">matlab.lang.makeValidName</a>, <a href="matlab:help iskeyword">iskeyword</a>, <a href="matlab:help namelengthmax">namelengthmax</a>.
+
+    <a href="matlab:doc isvarname">Reference page for isvarname</a>
+
+uiopen('C:\Users\aloisia\Desktop\POLIMI\Master\First Year\First Semester\Orbital Mechanics\group_27\myFunctions\astroConstants.m',1)
+uiopen('C:\Users\aloisia\Desktop\POLIMI\Master\Second Year\First semester\Modeling of aerospace systems\Group_12\Script\Functions\flight_envelope.m',1)
+uiopen('C:\Users\aloisia\Desktop\POLIMI\Master\Second Year\First semester\Modeling of aerospace systems\Group_12\Script\Functions\ground_track.m',1)
+uiopen('C:\Users\aloisia\Desktop\POLIMI\Master\Second Year\First semester\Modeling of aerospace systems\Group_12\Script\Functions\ground_track.m',1)
+uiopen('C:\Users\aloisia\Desktop\POLIMI\Master\Second Year\First semester\Modeling of aerospace systems\Group_12\Script\Functions\integrator_MOD113_0.m',1)
+end disry
+ end disry
+ 
+{Error: Illegal use of reserved keyword "end".
+} 
+end diary
+ end diary
+ 
+{Error: Illegal use of reserved keyword "end".
+} 
+close diary
+{Error using close
+Specified window does not exist.
+} 
+close 'diary'
+{Error using close
+Specified window does not exist.
+} 
+uiopen('C:\Users\aloisia\Downloads\Euler (1).mdl',1)
+uiopen('C:\Users\aloisia\Downloads\Lab_5.slx',1)
+uiopen('C:\Users\aloisia\Downloads\Lab_4.slx',1)
+uiopen('C:\Users\aloisia\Desktop\POLIMI\Master\Second Year\First semester\Attitude and control\Simulink Files\Attitude-Control\LAB6T4.slx',1)
